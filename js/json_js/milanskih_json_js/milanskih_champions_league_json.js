@@ -1,0 +1,138 @@
+const milanskihChampionsLeagueJson = [
+	{
+		"group_name": "a",
+		"teams": [
+			{
+				"id": 7,
+				"name": "Манчестер Юнайтед",
+				"alt": "manchester-utd",
+				"position": 2
+			},
+			{
+				"id": 2,
+				"name": "Баварія Мюнхен",
+				"alt": "bayern",
+				"position": 1
+			}
+		]
+	},
+	{
+		"group_name": "b",
+		"teams": [
+			{
+				"id": 25,
+				"name": "Арсенал",
+				"alt": "arsenal",
+				"position": 1
+			},
+			{
+				"id": 11,
+				"name": "Севілья",
+				"alt": "sevilla",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "c",
+		"teams": [
+			{
+				"id": 18,
+				"name": "Наполі",
+				"alt": "napoli",
+				"position": 2
+			},
+			{
+				"id": 3,
+				"name": "Реал Мадрид",
+				"alt": "real-madrid",
+				"position": 1
+			}
+		]
+	},
+	{
+		"group_name": "d",
+		"teams": [
+			{
+				"id": 8,
+				"name": "Інтер",
+				"alt": "inter",
+				"position": 1
+			},
+			{
+				"id": 15,
+				"name": "Бенфіка",
+				"alt": "c-f-benfica",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "e",
+		"teams": [
+			{
+				"id": 42,
+				"name": "Лаціо",
+				"alt": "lazio",
+				"position": 2
+			},
+			{
+				"id": 16,
+				"name": "Атлетіко",
+				"alt": "atl-madrid",
+				"position": 1
+			}
+		]
+	},
+	{
+		"group_name": "f",
+		"teams": [
+			{
+				"id": 4,
+				"name": "ПСЖ",
+				"alt": "paris-sg",
+				"position": 1
+			},
+			{
+				"id": 32,
+				"name": "Мілан",
+				"alt": "ac-milan",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "g",
+		"teams": [
+			{
+				"id": 1,
+				"name": "Манчестер Сіті",
+				"alt": "manchester-city",
+				"position": 1
+			},
+			{
+				"id": 9,
+				"name": "РБ Лейпциг",
+				"alt": "rb-leipzig",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "h",
+		"teams": [
+			{
+				"id": 14,
+				"name": "Барселона",
+				"alt": "barcelona",
+				"position": 1
+			},
+			{
+				"id": 21,
+				"name": "Порту",
+				"alt": "fc-porto",
+				"position": 2
+			}
+		]
+	}
+];

@@ -31,15 +31,17 @@ const linkPredJson = {
 	}
 };
 // =========================== JSON end =========================== //
-
 // =========================== data leagues =========================== //
 // Получання даних з JSON
 async function groupsData(url) {
-	const response = await fetch(url);
-	const data = await response.json();
-	pushDataGroupsStats(data);
+	try {
+		const response = await fetch(url);
+		const data = await response.json();
+		pushDataGroupsStats(data);
+	} catch (e) {
+		console.error(`error: ${e.message}`);
+	}
 }
-
 
 function pushDataGroupsStats(data) {
 	for (let i = 0; i < data.length; i++) {
