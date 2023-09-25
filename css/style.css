@@ -1,0 +1,285 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: 'SFProText';
+	src: url('../fonts/SFProText-Regular.woff2') format('woff2'),
+	url('../fonts/SFProText-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root {
+	--white: #ffffff;
+	--grey: #c4c4c4;
+	--darkGrey: #65656B;
+	--blue: #246BFD;
+	--gradient-1: linear-gradient(137deg, #F4A58A 0%, #ED6B4E 96.01%);
+	--black-1: #222232;
+	--black-2: #181829;
+
+	--bg-green: linear-gradient(0deg, rgba(31, 255, 0, 0.6979166666666667) 0%, rgba(25, 25, 41, 0.7035189075630253) 40%, rgba(25, 25, 41, 0.7035189075630253) 60%, rgba(31, 255, 0, 0.6979166666666667) 100%);
+
+	--bg-yellow: linear-gradient(0deg, rgba(245, 255, 0, 0.6979166666666667) 0%, rgba(25, 25, 41, 0.7035189075630253) 40%, rgba(25, 25, 41, 0.7035189075630253) 60%, rgba(245, 255, 0, 1) 100%);
+
+	--bg-red: linear-gradient(0deg, rgba(255, 0, 0, 0.6979166666666667) 0%, rgba(25, 25, 41, 0.7035189075630253) 40%, rgba(25, 25, 41, 0.7035189075630253) 60%, rgba(255, 0, 0, 0.6979166666666667) 100%);
+}
+
+.background-green {
+	background: var(--bg-green);
+}
+
+.background-yellow {
+	background: var(--bg-yellow);
+}
+
+.background-red {
+	background: var(--bg-red);
+}
+
+html, body {
+	height: 100%;
+	font-size: 12px;
+	background: var(--black-2);
+	color: var(--white);
+	font-family: 'SFProText', sans-serif;
+}
+
+.container {
+	width: 100%;
+	max-width: 1400px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+/* =============== HEADER  ===============*/
+
+.header {
+	padding: 30px 0 10px;
+}
+
+.header-items {
+	display: grid;
+	grid-template-columns: 80% 1fr;
+	grid-column-gap: 20px;
+}
+
+.header-items-select {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.select-wrapper {
+	position: relative;
+}
+
+.select-wrapper::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);
+	pointer-events: none;
+
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10.4px 6px 0 6px;
+	border-color: var(--darkGrey) transparent transparent transparent;
+}
+
+.select {
+	width: 100%;
+	padding: 10px 35px 10px 15px;
+	border-radius: 20px;
+	border: 1px solid var(--darkGrey);
+	background: var(--black-1);
+	color: var(--grey);
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	appearance: none;
+}
+
+.select:focus {
+	outline: transparent;
+	box-shadow: 0px 0px 0px 1px var(--grey), 0px 0px 10px var(--darkGrey);
+}
+
+.header-points {
+	position: relative;
+	width: 100%;
+	padding-bottom: 80%;
+}
+
+.header-points span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	font-size: 32px;
+}
+
+/* =============== HEADER END ============*/
+
+/* =============== GROUP ================ */
+
+.groups {
+	padding: 50px 0;
+}
+
+.groups-items {
+	display: grid;
+	grid-row-gap: 32px;
+}
+
+.groups-item {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 6px;
+}
+
+.groups-prediction__body {
+	display: grid;
+	grid-row-gap: 6px;
+	padding: 8px 18px;
+	text-align: center;
+}
+
+/* ============== GROUP END ============= */
+
+/* ============== TABLE ================= */
+
+.table__body {
+	background-color: var(--black-1);
+	border-radius: 20px;
+	padding: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 2.4;
+}
+
+.table__team-text:last-child {
+	border-bottom: none;
+}
+
+.table__row {
+	display: grid;
+	padding: 6px 0;
+	border-bottom: 1px solid hsla(180, 5%, 79%, .25);
+}
+
+.table__columns--1fr {
+	grid-template-columns: 1fr;
+
+}
+
+.table__columns--5fr {
+	grid-template-columns: 65% repeat(4, 1fr);
+}
+
+.table__cell {
+	text-align: center;
+	align-self: center;
+}
+
+.table__header-text:last-child {
+	border-bottom: none;
+}
+
+.table__header-text {
+	font-weight: 700;
+	text-align: left;
+}
+
+.table__name-group {
+	color: #F4A58A;
+	text-transform: uppercase;
+}
+
+.table__header-text > span {
+	color: var(--white);
+}
+
+.prediction__team-name {
+	border-radius: 20px;
+	border-bottom: 1px dotted var(--darkGrey);
+}
+
+/* ============== TABLE END============== */
+
+/* ============== MEDIA ================= */
+
+@media (min-width: 576px) {
+	body {
+		font-size: 14px;
+	}
+
+	.groups-items {
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 16px;
+	}
+
+}
+
+
+@media (min-width: 768px) {
+	body {
+		font-size: 16px;
+	}
+
+	.groups-items {
+		grid-column-gap: 20px;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.container {
+		padding: 0 30px;
+	}
+
+	.groups-items {
+		grid-column-gap: 26px;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.groups-items {
+		grid-column-gap: 32px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.groups-items {
+		grid-column-gap: 36px;
+	}
+
+	.groups-item {
+		grid-template-columns: 60% 1fr;
+	}
+}

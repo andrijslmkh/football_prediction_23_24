@@ -1,0 +1,122 @@
+[
+	{
+		"group_name": "a",
+		"teams": [
+			{
+				"id": 50,
+				"name": "Лілль",
+				"position": 1
+			},
+			{
+				"id": 62,
+				"name": "Слован Братислава",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "b",
+		"teams": [
+			{
+				"id": 66,
+				"name": "Маккабі Тель-Авів",
+				"position": 1
+			},
+			{
+				"id": 92,
+				"name": "Зоря",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "c",
+		"teams": [
+			{
+				"id": 108,
+				"name": "Вікторія Пльзень",
+				"position": 1
+			},
+			{
+				"id": 38,
+				"name": "Динамо Загреб",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "d",
+		"teams": [
+			{
+				"id": 70,
+				"name": "Буде-Глімт",
+				"position": 2
+			},
+			{
+				"id": 116,
+				"name": "Бешикташ",
+				"position": 1
+			}
+		]
+	},
+	{
+		"group_name": "e",
+		"teams": [
+			{
+				"id": 84,
+				"name": "Астон Вілла",
+				"position": 1
+			},
+			{
+				"id": 31,
+				"name": "АЗ Алкмар",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "f",
+		"teams": [
+			{
+				"id": 69,
+				"name": "Фіорентина",
+				"position": 1
+			},
+			{
+				"id": 55,
+				"name": "Ференцварош",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "g",
+		"teams": [
+			{
+				"id": 24,
+				"name": "Айнтрахт Франкфурт",
+				"position": 1
+			},
+			{
+				"id": 65,
+				"name": "ПАОК",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "h",
+		"teams": [
+			{
+				"id": 64,
+				"name": "Фенербахче",
+				"position": 1
+			},
+			{
+				"id": 78,
+				"name": "Лудогорець",
+				"position": 2
+			}
+		]
+	}
+]

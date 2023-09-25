@@ -1,0 +1,122 @@
+[
+	{
+		"group_name": "a",
+		"teams": [
+			{
+				"id": 81,
+				"name": "Фрайбург",
+				"position": 1
+			},
+			{
+				"id": 48,
+				"name": "Олімпіакос Пірей",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "b",
+		"teams": [
+			{
+				"id": 83,
+				"name": "Брайтон",
+				"position": 1
+			},
+			{
+				"id": 19,
+				"name": "Аякс",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "c",
+		"teams": [
+			{
+				"id": 52,
+				"name": "Бетіс",
+				"position": 1
+			},
+			{
+				"id": 29,
+				"name": "Рейнджерс",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "d",
+		"teams": [
+			{
+				"id": 23,
+				"name": "Аталанта",
+				"position": 2
+			},
+			{
+				"id": 35,
+				"name": "Спортінг",
+				"position": 1
+			}
+		]
+	},
+	{
+		"group_name": "e",
+		"teams": [
+			{
+				"id": 5,
+				"name": "Ліверпуль",
+				"position": 1
+			},
+			{
+				"id": 72,
+				"name": "Юніон Сент-Жілуаз",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "f",
+		"teams": [
+			{
+				"id": 17,
+				"name": "Вільярреал",
+				"position": 1
+			},
+			{
+				"id": 262,
+				"name": "Панатінаїкос",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "g",
+		"teams": [
+			{
+				"id": 10,
+				"name": "Рома",
+				"position": 1
+			},
+			{
+				"id": 77,
+				"name": "Шериф",
+				"position": 2
+			}
+		]
+	},
+	{
+		"group_name": "h",
+		"teams": [
+			{
+				"id": 20,
+				"name": "Баєр Леверкузен",
+				"position": 1
+			},
+			{
+				"id": 63,
+				"name": "Мольде",
+				"position": 2
+			}
+		]
+	}
+]
