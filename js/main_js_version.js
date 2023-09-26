@@ -5,6 +5,7 @@ const groupsPrediction = document.querySelectorAll('.groups-prediction__body');
 
 const selectLeaudeLikn = document.querySelector('.select-leaude-likn');
 const selectPredictionLikn = document.querySelector('.select-prediction-likn');
+const teamText = document.querySelectorAll('.table__team-text');
 
 let points = document.querySelector('.points');
 let count = 0;
@@ -94,7 +95,8 @@ selectPredictionLikn.addEventListener('change', () => {
 			for (const linkKey in linkPredJson[key]) {
 				if (linkKey === selectLeaudeLikn.value) {
 					clearPredoctionBlocks(); // remove попередній прогноз і всі його стилі
-					pushPredictionData(linkPredJson[key][linkKey])
+					pushPredictionData(linkPredJson[key][linkKey]);
+					forecastStatistics(groupsPrediction);
 				}
 			}
 		}
@@ -103,12 +105,10 @@ selectPredictionLikn.addEventListener('change', () => {
 
 // =========================== =========================== //
 
-function forecastStatistics(predTeam) {
-	const teamText = document.querySelectorAll('.table__team-text');
+function forecastStatistics() {
 	count = 0;
-
 	teamText.forEach(el => {
-		predTeam.forEach(items => {
+		groupsPrediction.forEach(items => {
 			for (let i = 0; i < items.children.length; i++) {
 				if (items.children[i].dataset.id == el.children[0].dataset.id) {
 
