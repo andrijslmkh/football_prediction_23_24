@@ -1,503 +1,596 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>football table</title>
-	<link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>football table</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-items">
+            <div class="header-select">
+              <div class="select-wrapper">
+                <div class="select-container">
+                  <select class="select select-leaude-likn" name="select">
+                    <option value="" disabled selected>choice</option>
+                    <option value="urlChampionsLeague">Champions League</option>
+                    <option value="urlEuropaLeague">Europa League</option>
+                    <option value="urlConferenceLeague">
+                      Conference league
+                    </option>
+                  </select>
+                </div>
 
-</head>
-<body>
+                <div class="select-container">
+                  <select class="select select-prediction-likn" name="select">
+                    <option value="" disabled selected>choice</option>
+                    <option value="milanskih">milanskih</option>
+                    <option value="slmkh">slmkh</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="header-points">
+              <div class="points-items">
+                <div class="points-item">
+                  <span class="points-text">Points: </span>
+                  <span class="points-league points-number"></span>
+                </div>
+                <div class="points-item">
+                  <span class="points-text">Max: </span>
+                  <span class="points-league-max points-number"></span>
+                </div>
+                <div class="points-item">
+                  <span class="points-text">General: </span>
+                  <span class="points-prediction-sum points-number"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="groups">
+          <div class="container">
+            <div class="groups-items">
+              <!--				 groups item				 -->
+              <div class="groups-item">
+                <div class="groups-stats">
+                  <div class="groups-stats__body table__body">
+                    <div
+                      class="table__header-text table__row table__columns--5fr"
+                    >
+                      <div>Group: <span class="table__name-group"></span></div>
+                      <span class="table__cell">W</span>
+                      <span class="table__cell">D</span>
+                      <span class="table__cell">L</span>
+                      <span class="table__cell">P</span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="groups-prediction">
+                  <div class="groups-prediction__body table__body">
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <!--				 groups item end				 -->
+              <!--				 groups item				 -->
+              <div class="groups-item">
+                <div class="groups-stats">
+                  <div class="groups-stats__body table__body">
+                    <div
+                      class="table__header-text table__row table__columns--5fr"
+                    >
+                      <div>Group: <span class="table__name-group"></span></div>
+                      <span class="table__cell">W</span>
+                      <span class="table__cell">D</span>
+                      <span class="table__cell">L</span>
+                      <span class="table__cell">P</span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="groups-prediction">
+                  <div class="groups-prediction__body table__body">
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <!--				 groups item end				 -->
+              <!--				 groups item				 -->
+              <div class="groups-item">
+                <div class="groups-stats">
+                  <div class="groups-stats__body table__body">
+                    <div
+                      class="table__header-text table__row table__columns--5fr"
+                    >
+                      <div>Group: <span class="table__name-group"></span></div>
+                      <span class="table__cell">W</span>
+                      <span class="table__cell">D</span>
+                      <span class="table__cell">L</span>
+                      <span class="table__cell">P</span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="groups-prediction">
+                  <div class="groups-prediction__body table__body">
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <!--				 groups item end				 -->
+              <!--				 groups item				 -->
+              <div class="groups-item">
+                <div class="groups-stats">
+                  <div class="groups-stats__body table__body">
+                    <div
+                      class="table__header-text table__row table__columns--5fr"
+                    >
+                      <div>Group: <span class="table__name-group"></span></div>
+                      <span class="table__cell">W</span>
+                      <span class="table__cell">D</span>
+                      <span class="table__cell">L</span>
+                      <span class="table__cell">P</span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="groups-prediction">
+                  <div class="groups-prediction__body table__body">
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <!--				 groups item end				 -->
+              <!--				 groups item				 -->
+              <div class="groups-item">
+                <div class="groups-stats">
+                  <div class="groups-stats__body table__body">
+                    <div
+                      class="table__header-text table__row table__columns--5fr"
+                    >
+                      <div>Group: <span class="table__name-group"></span></div>
+                      <span class="table__cell">W</span>
+                      <span class="table__cell">D</span>
+                      <span class="table__cell">L</span>
+                      <span class="table__cell">P</span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="groups-prediction">
+                  <div class="groups-prediction__body table__body">
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <!--				 groups item end				 -->
+              <!--				 groups item				 -->
+              <div class="groups-item">
+                <div class="groups-stats">
+                  <div class="groups-stats__body table__body">
+                    <div
+                      class="table__header-text table__row table__columns--5fr"
+                    >
+                      <div>Group: <span class="table__name-group"></span></div>
+                      <span class="table__cell">W</span>
+                      <span class="table__cell">D</span>
+                      <span class="table__cell">L</span>
+                      <span class="table__cell">P</span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="groups-prediction">
+                  <div class="groups-prediction__body table__body">
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <!--				 groups item end				 -->
+              <!--				 groups item				 -->
+              <div class="groups-item">
+                <div class="groups-stats">
+                  <div class="groups-stats__body table__body">
+                    <div
+                      class="table__header-text table__row table__columns--5fr"
+                    >
+                      <div>Group: <span class="table__name-group"></span></div>
+                      <span class="table__cell">W</span>
+                      <span class="table__cell">D</span>
+                      <span class="table__cell">L</span>
+                      <span class="table__cell">P</span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="groups-prediction">
+                  <div class="groups-prediction__body table__body">
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <!--				 groups item end				 -->
+              <!--				 groups item				 -->
+              <div class="groups-item">
+                <div class="groups-stats">
+                  <div class="groups-stats__body table__body">
+                    <div
+                      class="table__header-text table__row table__columns--5fr"
+                    >
+                      <div>Group: <span class="table__name-group"></span></div>
+                      <span class="table__cell">W</span>
+                      <span class="table__cell">D</span>
+                      <span class="table__cell">L</span>
+                      <span class="table__cell">P</span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                    <div
+                      class="table__team-text table__row table__columns--5fr"
+                    >
+                      <span></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                      <span class="table__cell"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="groups-prediction">
+                  <div class="groups-prediction__body table__body">
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                    <div
+                      class="prediction__team-name table__row table__columns--1fr"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <!--				 groups item end				 -->
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
 
-<div class="wrapper">
-	<header class="header">
-		<div class="container">
-			<div class="header-items">
-				<div class="header-items-select">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/select2.min.js"></script>
 
-					<div class="select-wrapper">
-						<select class="select select-leaude-likn" name="select">
-							<option value="urlChampionsLeague">Champions League</option>
-							<option value="urlEuropaLeague">Europa League</option>
-							<option value="urlConferenceLeague">Conference league</option>
-						</select>
-					</div>
+    <!--<script src="js/main.js"></script>-->
+    <!---->
 
-					<div class="select-wrapper">
-						<select class="select select-prediction-likn" name="select">
-							<option value="" disabled selected>choice</option>
-							<option value="milanskih">milanskih</option>
-							<option value="slmkh">slmkh</option>
-						</select>
-					</div>
-
-				</div>
-				<div class="header-points">
-					<span class="points"></span>
-				</div>
-			</div>
-		</div>
-	</header>
-	<main class="main">
-		<div class="groups">
-			<div class="container">
-				<div class="groups-items">
-					<!--				 groups item				 -->
-					<div class="groups-item">
-						<div class="groups-stats">
-							<div class="groups-stats__body table__body">
-								<div class="table__header-text table__row table__columns--5fr">
-									<div>Group: <span class="table__name-group"></span></div>
-									<span class="table__cell">W</span>
-									<span class="table__cell">D</span>
-									<span class="table__cell">L</span>
-									<span class="table__cell">P</span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-							</div>
-						</div>
-						<div class="groups-prediction">
-							<div class="groups-prediction__body table__body">
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--				 groups item end				 -->
-					<!--				 groups item				 -->
-					<div class="groups-item">
-						<div class="groups-stats">
-							<div class="groups-stats__body table__body">
-								<div class="table__header-text table__row table__columns--5fr">
-									<div>Group: <span class="table__name-group"></span></div>
-									<span class="table__cell">W</span>
-									<span class="table__cell">D</span>
-									<span class="table__cell">L</span>
-									<span class="table__cell">P</span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-							</div>
-						</div>
-						<div class="groups-prediction">
-							<div class="groups-prediction__body table__body">
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--				 groups item end				 -->
-					<!--				 groups item				 -->
-					<div class="groups-item">
-						<div class="groups-stats">
-							<div class="groups-stats__body table__body">
-								<div class="table__header-text table__row table__columns--5fr">
-									<div>Group: <span class="table__name-group"></span></div>
-									<span class="table__cell">W</span>
-									<span class="table__cell">D</span>
-									<span class="table__cell">L</span>
-									<span class="table__cell">P</span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-							</div>
-						</div>
-						<div class="groups-prediction">
-							<div class="groups-prediction__body table__body">
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--				 groups item end				 -->
-					<!--				 groups item				 -->
-					<div class="groups-item">
-						<div class="groups-stats">
-							<div class="groups-stats__body table__body">
-								<div class="table__header-text table__row table__columns--5fr">
-									<div>Group: <span class="table__name-group"></span></div>
-									<span class="table__cell">W</span>
-									<span class="table__cell">D</span>
-									<span class="table__cell">L</span>
-									<span class="table__cell">P</span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-							</div>
-						</div>
-						<div class="groups-prediction">
-							<div class="groups-prediction__body table__body">
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--				 groups item end				 -->
-					<!--				 groups item				 -->
-					<div class="groups-item">
-						<div class="groups-stats">
-							<div class="groups-stats__body table__body">
-								<div class="table__header-text table__row table__columns--5fr">
-									<div>Group: <span class="table__name-group"></span></div>
-									<span class="table__cell">W</span>
-									<span class="table__cell">D</span>
-									<span class="table__cell">L</span>
-									<span class="table__cell">P</span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-							</div>
-						</div>
-						<div class="groups-prediction">
-							<div class="groups-prediction__body table__body">
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--				 groups item end				 -->
-					<!--				 groups item				 -->
-					<div class="groups-item">
-						<div class="groups-stats">
-							<div class="groups-stats__body table__body">
-								<div class="table__header-text table__row table__columns--5fr">
-									<div>Group: <span class="table__name-group"></span></div>
-									<span class="table__cell">W</span>
-									<span class="table__cell">D</span>
-									<span class="table__cell">L</span>
-									<span class="table__cell">P</span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-							</div>
-						</div>
-						<div class="groups-prediction">
-							<div class="groups-prediction__body table__body">
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--				 groups item end				 -->
-					<!--				 groups item				 -->
-					<div class="groups-item">
-						<div class="groups-stats">
-							<div class="groups-stats__body table__body">
-								<div class="table__header-text table__row table__columns--5fr">
-									<div>Group: <span class="table__name-group"></span></div>
-									<span class="table__cell">W</span>
-									<span class="table__cell">D</span>
-									<span class="table__cell">L</span>
-									<span class="table__cell">P</span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-							</div>
-						</div>
-						<div class="groups-prediction">
-							<div class="groups-prediction__body table__body">
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--				 groups item end				 -->
-					<!--				 groups item				 -->
-					<div class="groups-item">
-						<div class="groups-stats">
-							<div class="groups-stats__body table__body">
-								<div class="table__header-text table__row table__columns--5fr">
-									<div>Group: <span class="table__name-group"></span></div>
-									<span class="table__cell">W</span>
-									<span class="table__cell">D</span>
-									<span class="table__cell">L</span>
-									<span class="table__cell">P</span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-								<div class="table__team-text table__row table__columns--5fr">
-									<span></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-									<span class="table__cell"></span>
-								</div>
-							</div>
-						</div>
-						<div class="groups-prediction">
-							<div class="groups-prediction__body table__body">
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-								<div class="prediction__team-name table__row table__columns--1fr">
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--				 groups item end				 -->
-				</div>
-
-			</div>
-		</div>
-	</main>
-	<footer class="footer"></footer>
-</div>
-
-
-<script src="js/jquery.min.js"></script>
-<script src="js/select2.min.js"></script>
-
-<!--<script src="js/main.js"></script>-->
-<!---->
-
-<!--V_2-->
-<script src="js/json_js/champions_league_json.js"></script>
-<script src="js/json_js/europa_league_json.js"></script>
-<script src="js/json_js/conference_league_json.js"></script>
-<!---->
-<script src="js/json_js/milanskih_json_js/milanskih_champions_league_json.js"></script>
-<script src="js/json_js/milanskih_json_js/milanskih_europa_league_json.js"></script>
-<script src="js/json_js/milanskih_json_js/milanskih_conference_league_json.js"></script>
-<!---->
-<script src="js/json_js/slmkh_json_js/slmkh_champions_league_json.js"></script>
-<script src="js/json_js/slmkh_json_js/slmkh_europa_league_json.js"></script>
-<script src="js/json_js/slmkh_json_js/slmkh_conference_league_json.js"></script>
-<!---->
-<script src="js/main_js_version.js"></script>
-<!--V_2-->
-
-</body>
+    <!--V_2-->
+    <script src="js/json_js/champions_league_json.js"></script>
+    <script src="js/json_js/europa_league_json.js"></script>
+    <script src="js/json_js/conference_league_json.js"></script>
+    <!---->
+    <script src="js/json_js/milanskih_json_js/milanskih_champions_league_json.js"></script>
+    <script src="js/json_js/milanskih_json_js/milanskih_europa_league_json.js"></script>
+    <script src="js/json_js/milanskih_json_js/milanskih_conference_league_json.js"></script>
+    <!---->
+    <script src="js/json_js/slmkh_json_js/slmkh_champions_league_json.js"></script>
+    <script src="js/json_js/slmkh_json_js/slmkh_europa_league_json.js"></script>
+    <script src="js/json_js/slmkh_json_js/slmkh_conference_league_json.js"></script>
+    <!---->
+    <script src="js/main_js_version.js"></script>
+    <!--V_2-->
+  </body>
 </html>

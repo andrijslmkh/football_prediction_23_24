@@ -126,7 +126,7 @@ const conferenceLeagueJson = [
 				"alt": "din-zagreb",
 				"position": 1,
 				"stats": {
-					"win": 3,
+					"win": 1,
 					"draw": 0,
 					"lose": 0,
 					"points": 3
