@@ -6,12 +6,12 @@ const championsLeagueJson = [
         id: 7,
         name: "Манчестер Юнайтед",
         alt: "manchester-utd",
-        position: 4,
+        position: 3,
         stats: {
-          win: 0,
+          win: 1,
           draw: 0,
           lose: 2,
-          points: 0,
+          points: 3,
         },
       },
       {
@@ -20,21 +20,21 @@ const championsLeagueJson = [
         alt: "bayern",
         position: 1,
         stats: {
-          win: 2,
+          win: 3,
           draw: 0,
           lose: 0,
-          points: 6,
+          points: 9,
         },
       },
       {
         id: 41,
         name: "Копенгаген",
         alt: "copenhage",
-        position: 3,
+        position: 4,
         stats: {
           win: 0,
           draw: 1,
-          lose: 1,
+          lose: 2,
           points: 1,
         },
       },
@@ -46,7 +46,7 @@ const championsLeagueJson = [
         stats: {
           win: 1,
           draw: 1,
-          lose: 0,
+          lose: 1,
           points: 4,
         },
       },
@@ -59,24 +59,24 @@ const championsLeagueJson = [
         id: 25,
         name: "Арсенал",
         alt: "arsenal",
-        position: 2,
+        position: 1,
         stats: {
-          win: 1,
+          win: 2,
           draw: 0,
           lose: 1,
-          points: 3,
+          points: 6,
         },
       },
       {
         id: 129,
         name: "Ланс",
         alt: "lens",
-        position: 1,
+        position: 2,
         stats: {
           win: 1,
-          draw: 1,
+          draw: 2,
           lose: 0,
-          points: 4,
+          points: 5,
         },
       },
       {
@@ -86,9 +86,9 @@ const championsLeagueJson = [
         position: 4,
         stats: {
           win: 0,
-          draw: 1,
+          draw: 2,
           lose: 1,
-          points: 1,
+          points: 2,
         },
       },
       {
@@ -99,7 +99,7 @@ const championsLeagueJson = [
         stats: {
           win: 0,
           draw: 2,
-          lose: 0,
+          lose: 1,
           points: 2,
         },
       },
@@ -116,7 +116,7 @@ const championsLeagueJson = [
         stats: {
           win: 0,
           draw: 0,
-          lose: 2,
+          lose: 3,
           points: 0,
         },
       },
@@ -128,8 +128,8 @@ const championsLeagueJson = [
         stats: {
           win: 1,
           draw: 0,
-          lose: 1,
-          points: 3,
+          lose: 2,
+          points: 6,
         },
       },
       {
@@ -138,10 +138,10 @@ const championsLeagueJson = [
         alt: "real-madrid",
         position: 1,
         stats: {
-          win: 2,
+          win: 3,
           draw: 0,
           lose: 0,
-          points: 6,
+          points: 9,
         },
       },
       {
@@ -152,7 +152,7 @@ const championsLeagueJson = [
         stats: {
           win: 1,
           draw: 0,
-          lose: 1,
+          lose: 2,
           points: 3,
         },
       },
@@ -167,10 +167,10 @@ const championsLeagueJson = [
         alt: "real-socieda",
         position: 1,
         stats: {
-          win: 1,
+          win: 2,
           draw: 1,
           lose: 0,
-          points: 4,
+          points: 7,
         },
       },
       {
@@ -181,7 +181,7 @@ const championsLeagueJson = [
         stats: {
           win: 1,
           draw: 0,
-          lose: 1,
+          lose: 2,
           points: 3,
         },
       },
@@ -191,10 +191,10 @@ const championsLeagueJson = [
         alt: "inter",
         position: 2,
         stats: {
-          win: 1,
+          win: 2,
           draw: 1,
           lose: 0,
-          points: 4,
+          points: 7,
         },
       },
       {
@@ -205,7 +205,7 @@ const championsLeagueJson = [
         stats: {
           win: 0,
           draw: 0,
-          lose: 2,
+          lose: 3,
           points: 0,
         },
       },
