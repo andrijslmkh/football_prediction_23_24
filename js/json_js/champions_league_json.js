@@ -6,12 +6,12 @@ const championsLeagueJson = [
 				id: 7,
 				name: 'Манчестер Юнайтед',
 				alt: 'manchester-utd',
-				position: 3,
+				position: 4,
 				stats: {
 					win: 1,
 					draw: 0,
 					lose: 3,
-					points: 4,
+					points: 3,
 				},
 			},
 			{
