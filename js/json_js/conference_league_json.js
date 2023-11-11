@@ -312,7 +312,7 @@ const conferenceLeagueJson = [
 					win: 1,
 					draw: 3,
 					lose: 0,
-					points: 5,
+					points: 6,
 				},
 			},
 		],
