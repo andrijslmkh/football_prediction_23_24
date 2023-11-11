@@ -9,9 +9,9 @@ const conferenceLeagueJson = [
 				position: 1,
 				stats: {
 					win: 2,
-					draw: 1,
+					draw: 2,
 					lose: 0,
-					points: 7,
+					points: 8,
 				},
 			},
 			{
@@ -21,9 +21,9 @@ const conferenceLeagueJson = [
 				position: 2,
 				stats: {
 					win: 2,
-					draw: 0,
+					draw: 1,
 					lose: 1,
-					points: 6,
+					points: 7,
 				},
 			},
 			{
@@ -32,10 +32,10 @@ const conferenceLeagueJson = [
 				alt: 'o-ljubljana',
 				position: 4,
 				stats: {
-					win: 0,
+					win: 1,
 					draw: 0,
 					lose: 3,
-					points: 0,
+					points: 3,
 				},
 			},
 			{
@@ -46,7 +46,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 1,
 					draw: 1,
-					lose: 1,
+					lose: 2,
 					points: 4,
 				},
 			},
@@ -63,7 +63,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 0,
 					draw: 0,
-					lose: 3,
+					lose: 4,
 					points: 0,
 				},
 			},
@@ -73,33 +73,33 @@ const conferenceLeagueJson = [
 				alt: 'gent',
 				position: 1,
 				stats: {
-					win: 2,
+					win: 3,
 					draw: 1,
 					lose: 0,
-					points: 6,
+					points: 9,
 				},
 			},
 			{
 				id: 66,
 				name: 'Маккабі Тель-Авів',
 				alt: 'maccabi-tel-aviv',
-				position: 3,
+				position: 2,
 				stats: {
-					win: 1,
+					win: 2,
 					draw: 0,
 					lose: 1,
-					points: 3,
+					points: 6,
 				},
 			},
 			{
 				id: 92,
 				name: 'Зоря',
 				alt: 'zorya',
-				position: 2,
+				position: 3,
 				stats: {
 					win: 0,
 					draw: 1,
-					lose: 1,
+					lose: 2,
 					points: 4,
 				},
 			},
@@ -114,21 +114,21 @@ const conferenceLeagueJson = [
 				alt: 'plzen',
 				position: 1,
 				stats: {
-					win: 3,
+					win: 4,
 					draw: 0,
 					lose: 0,
-					points: 9,
+					points: 12,
 				},
 			},
 			{
 				id: 38,
 				name: 'Динамо Загреб',
 				alt: 'din-zagreb',
-				position: 2,
+				position: 4,
 				stats: {
 					win: 1,
 					draw: 0,
-					lose: 2,
+					lose: 3,
 					points: 3,
 				},
 			},
@@ -136,12 +136,12 @@ const conferenceLeagueJson = [
 				id: 127,
 				name: 'ФК Астана',
 				alt: 'fc-astana',
-				position: 4,
+				position: 2,
 				stats: {
 					win: 1,
-					draw: 0,
+					draw: 1,
 					lose: 2,
-					points: 3,
+					points: 4,
 				},
 			},
 			{
@@ -151,9 +151,9 @@ const conferenceLeagueJson = [
 				position: 3,
 				stats: {
 					win: 1,
-					draw: 0,
+					draw: 1,
 					lose: 2,
-					points: 3,
+					points: 4,
 				},
 			},
 		],
@@ -167,10 +167,10 @@ const conferenceLeagueJson = [
 				alt: 'club-brugge',
 				position: 1,
 				stats: {
-					win: 2,
+					win: 3,
 					draw: 1,
 					lose: 0,
-					points: 7,
+					points: 10,
 				},
 			},
 			{
@@ -179,10 +179,10 @@ const conferenceLeagueJson = [
 				alt: 'bodo-glimt',
 				position: 2,
 				stats: {
-					win: 1,
+					win: 2,
 					draw: 1,
 					lose: 1,
-					points: 4,
+					points: 7,
 				},
 			},
 			{
@@ -193,7 +193,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 1,
 					draw: 1,
-					lose: 1,
+					lose: 2,
 					points: 4,
 				},
 			},
@@ -205,7 +205,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 0,
 					draw: 1,
-					lose: 2,
+					lose: 3,
 					points: 1,
 				},
 			},
@@ -220,10 +220,10 @@ const conferenceLeagueJson = [
 				alt: 'aston-villa',
 				position: 2,
 				stats: {
-					win: 2,
+					win: 3,
 					draw: 0,
 					lose: 1,
-					points: 6,
+					points: 9,
 				},
 			},
 			{
@@ -234,7 +234,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 1,
 					draw: 0,
-					lose: 2,
+					lose: 3,
 					points: 3,
 				},
 			},
@@ -244,10 +244,10 @@ const conferenceLeagueJson = [
 				alt: 'legia',
 				position: 1,
 				stats: {
-					win: 2,
+					win: 3,
 					draw: 0,
 					lose: 1,
-					points: 6,
+					points: 9,
 				},
 			},
 			{
@@ -258,7 +258,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 1,
 					draw: 0,
-					lose: 2,
+					lose: 3,
 					points: 3,
 				},
 			},
@@ -274,9 +274,9 @@ const conferenceLeagueJson = [
 				position: 3,
 				stats: {
 					win: 1,
-					draw: 2,
+					draw: 3,
 					lose: 0,
-					points: 5,
+					points: 6,
 				},
 			},
 			{
@@ -285,10 +285,10 @@ const conferenceLeagueJson = [
 				alt: 'fiorentina',
 				position: 1,
 				stats: {
-					win: 1,
+					win: 2,
 					draw: 2,
 					lose: 0,
-					points: 5,
+					points: 8,
 				},
 			},
 			{
@@ -299,7 +299,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 0,
 					draw: 0,
-					lose: 3,
+					lose: 4,
 					points: 0,
 				},
 			},
@@ -310,7 +310,7 @@ const conferenceLeagueJson = [
 				position: 2,
 				stats: {
 					win: 1,
-					draw: 2,
+					draw: 3,
 					lose: 0,
 					points: 5,
 				},
@@ -326,10 +326,10 @@ const conferenceLeagueJson = [
 				alt: 'eintracht-frankfurt',
 				position: 2,
 				stats: {
-					win: 2,
+					win: 3,
 					draw: 0,
 					lose: 1,
-					points: 6,
+					points: 9,
 				},
 			},
 			{
@@ -340,7 +340,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 0,
 					draw: 1,
-					lose: 2,
+					lose: 3,
 					points: 1,
 				},
 			},
@@ -351,9 +351,9 @@ const conferenceLeagueJson = [
 				position: 1,
 				stats: {
 					win: 3,
-					draw: 0,
+					draw: 1,
 					lose: 0,
-					points: 9,
+					points: 10,
 				},
 			},
 			{
@@ -363,9 +363,9 @@ const conferenceLeagueJson = [
 				position: 3,
 				stats: {
 					win: 0,
-					draw: 1,
+					draw: 2,
 					lose: 2,
-					points: 1,
+					points: 2,
 				},
 			},
 		],
@@ -380,9 +380,9 @@ const conferenceLeagueJson = [
 				position: 4,
 				stats: {
 					win: 0,
-					draw: 0,
+					draw: 1,
 					lose: 3,
-					points: 0,
+					points: 1,
 				},
 			},
 			{
@@ -392,9 +392,9 @@ const conferenceLeagueJson = [
 				position: 2,
 				stats: {
 					win: 2,
-					draw: 0,
+					draw: 1,
 					lose: 1,
-					points: 6,
+					points: 7,
 				},
 			},
 			{
@@ -405,7 +405,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 3,
 					draw: 0,
-					lose: 0,
+					lose: 1,
 					points: 9,
 				},
 			},
@@ -415,10 +415,10 @@ const conferenceLeagueJson = [
 				alt: 'ludogorets',
 				position: 3,
 				stats: {
-					win: 1,
+					win: 2,
 					draw: 0,
 					lose: 2,
-					points: 3,
+					points: 6,
 				},
 			},
 		],
