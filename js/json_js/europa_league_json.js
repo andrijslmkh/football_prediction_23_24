@@ -148,7 +148,7 @@ const europaLeagueJson = [
 				id: 29,
 				name: 'Рейнджерс',
 				alt: 'rangers',
-				position: 2,
+				position: 3,
 				stats: {
 					win: 2,
 					draw: 1,
@@ -329,7 +329,7 @@ const europaLeagueJson = [
 					win: 3,
 					draw: 0,
 					lose: 1,
-					points: 9,
+					points: 6,
 				},
 			},
 			{
