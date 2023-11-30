@@ -8,10 +8,10 @@ const europaLeagueJson = [
 				alt: 'west-ham',
 				position: 1,
 				stats: {
-					win: 3,
+					win: 4,
 					draw: 0,
 					lose: 1,
-					points: 9,
+					points: 12,
 				},
 			},
 			{
@@ -20,10 +20,10 @@ const europaLeagueJson = [
 				alt: 'freigurg',
 				position: 2,
 				stats: {
-					win: 3,
+					win: 4,
 					draw: 0,
 					lose: 1,
-					points: 9,
+					points: 12,
 				},
 			},
 			{
@@ -34,7 +34,7 @@ const europaLeagueJson = [
 				stats: {
 					win: 1,
 					draw: 1,
-					lose: 2,
+					lose: 3,
 					points: 4,
 				},
 			},
@@ -46,7 +46,7 @@ const europaLeagueJson = [
 				stats: {
 					win: 0,
 					draw: 1,
-					lose: 3,
+					lose: 4,
 					points: 1,
 				},
 			},
@@ -61,10 +61,10 @@ const europaLeagueJson = [
 				alt: 'brighton',
 				position: 2,
 				stats: {
-					win: 2,
+					win: 3,
 					draw: 1,
 					lose: 1,
-					points: 7,
+					points: 10,
 				},
 			},
 			{
@@ -73,10 +73,10 @@ const europaLeagueJson = [
 				alt: 'marseille',
 				position: 1,
 				stats: {
-					win: 2,
+					win: 3,
 					draw: 2,
 					lose: 0,
-					points: 8,
+					points: 11,
 				},
 			},
 			{
@@ -87,7 +87,7 @@ const europaLeagueJson = [
 				stats: {
 					win: 0,
 					draw: 2,
-					lose: 2,
+					lose: 3,
 					points: 2,
 				},
 			},
@@ -99,7 +99,7 @@ const europaLeagueJson = [
 				stats: {
 					win: 1,
 					draw: 1,
-					lose: 2,
+					lose: 3,
 					points: 4,
 				},
 			},
@@ -114,10 +114,10 @@ const europaLeagueJson = [
 				alt: 'sparta-praha',
 				position: 3,
 				stats: {
-					win: 1,
+					win: 2,
 					draw: 1,
 					lose: 2,
-					points: 4,
+					points: 7,
 				},
 			},
 			{
@@ -128,7 +128,7 @@ const europaLeagueJson = [
 				stats: {
 					win: 3,
 					draw: 0,
-					lose: 1,
+					lose: 2,
 					points: 9,
 				},
 			},
@@ -139,21 +139,21 @@ const europaLeagueJson = [
 				position: 4,
 				stats: {
 					win: 1,
-					draw: 0,
+					draw: 1,
 					lose: 3,
-					points: 3,
+					points: 4,
 				},
 			},
 			{
 				id: 29,
 				name: 'Рейнджерс',
 				alt: 'rangers',
-				position: 3,
+				position: 2,
 				stats: {
 					win: 2,
-					draw: 1,
+					draw: 2,
 					lose: 1,
-					points: 7,
+					points: 8,
 				},
 			},
 		],
@@ -169,7 +169,7 @@ const europaLeagueJson = [
 				stats: {
 					win: 1,
 					draw: 1,
-					lose: 2,
+					lose: 3,
 					points: 4,
 				},
 			},
@@ -180,9 +180,9 @@ const europaLeagueJson = [
 				position: 1,
 				stats: {
 					win: 3,
-					draw: 1,
+					draw: 2,
 					lose: 0,
-					points: 10,
+					points: 11,
 				},
 			},
 			{
@@ -192,9 +192,9 @@ const europaLeagueJson = [
 				position: 2,
 				stats: {
 					win: 2,
-					draw: 1,
+					draw: 2,
 					lose: 1,
-					points: 7,
+					points: 8,
 				},
 			},
 			{
@@ -203,10 +203,10 @@ const europaLeagueJson = [
 				alt: 'rks-rakow-czestochowa',
 				position: 4,
 				stats: {
-					win: 0,
+					win: 1,
 					draw: 1,
 					lose: 3,
-					points: 1,
+					points: 4,
 				},
 			},
 		],
@@ -220,10 +220,10 @@ const europaLeagueJson = [
 				alt: 'liverpool',
 				position: 1,
 				stats: {
-					win: 3,
+					win: 4,
 					draw: 0,
 					lose: 1,
-					points: 9,
+					points: 12,
 				},
 			},
 			{
@@ -234,7 +234,7 @@ const europaLeagueJson = [
 				stats: {
 					win: 1,
 					draw: 0,
-					lose: 3,
+					lose: 4,
 					points: 3,
 				},
 			},
@@ -245,9 +245,9 @@ const europaLeagueJson = [
 				position: 3,
 				stats: {
 					win: 1,
-					draw: 1,
+					draw: 2,
 					lose: 2,
-					points: 4,
+					points: 5,
 				},
 			},
 			{
@@ -257,9 +257,9 @@ const europaLeagueJson = [
 				position: 2,
 				stats: {
 					win: 2,
-					draw: 1,
+					draw: 2,
 					lose: 1,
-					points: 7,
+					points: 8,
 				},
 			},
 		],
@@ -273,10 +273,10 @@ const europaLeagueJson = [
 				alt: 'rennes',
 				position: 1,
 				stats: {
-					win: 3,
+					win: 4,
 					draw: 0,
 					lose: 1,
-					points: 9,
+					points: 12,
 				},
 			},
 			{
@@ -285,10 +285,10 @@ const europaLeagueJson = [
 				alt: 'villarreal',
 				position: 2,
 				stats: {
-					win: 2,
+					win: 3,
 					draw: 0,
 					lose: 1,
-					points: 6,
+					points: 9,
 				},
 			},
 			{
@@ -299,7 +299,7 @@ const europaLeagueJson = [
 				stats: {
 					win: 1,
 					draw: 1,
-					lose: 2,
+					lose: 3,
 					points: 4,
 				},
 			},
@@ -311,7 +311,7 @@ const europaLeagueJson = [
 				stats: {
 					win: 0,
 					draw: 1,
-					lose: 2,
+					lose: 3,
 					points: 1,
 				},
 			},
@@ -326,10 +326,10 @@ const europaLeagueJson = [
 				alt: 'slavia-praha',
 				position: 1,
 				stats: {
-					win: 3,
+					win: 4,
 					draw: 0,
 					lose: 1,
-					points: 6,
+					points: 12,
 				},
 			},
 			{
@@ -339,9 +339,9 @@ const europaLeagueJson = [
 				position: 2,
 				stats: {
 					win: 3,
-					draw: 0,
+					draw: 1,
 					lose: 1,
-					points: 9,
+					points: 10,
 				},
 			},
 			{
@@ -351,9 +351,9 @@ const europaLeagueJson = [
 				position: 3,
 				stats: {
 					win: 1,
-					draw: 1,
+					draw: 2,
 					lose: 2,
-					points: 4,
+					points: 5,
 				},
 			},
 			{
@@ -364,7 +364,7 @@ const europaLeagueJson = [
 				stats: {
 					win: 0,
 					draw: 1,
-					lose: 3,
+					lose: 4,
 					points: 1,
 				},
 			},
@@ -381,7 +381,7 @@ const europaLeagueJson = [
 				stats: {
 					win: 0,
 					draw: 0,
-					lose: 4,
+					lose: 5,
 					points: 0,
 				},
 			},
@@ -391,10 +391,10 @@ const europaLeagueJson = [
 				alt: 'bayer-leverkusen',
 				position: 1,
 				stats: {
-					win: 4,
+					win: 5,
 					draw: 0,
 					lose: 0,
-					points: 12,
+					points: 15,
 				},
 			},
 			{
@@ -404,9 +404,9 @@ const europaLeagueJson = [
 				position: 3,
 				stats: {
 					win: 2,
-					draw: 0,
+					draw: 1,
 					lose: 2,
-					points: 6,
+					points: 7,
 				},
 			},
 			{
@@ -416,9 +416,9 @@ const europaLeagueJson = [
 				position: 2,
 				stats: {
 					win: 2,
-					draw: 0,
+					draw: 1,
 					lose: 2,
-					points: 6,
+					points: 7,
 				},
 			},
 		],
