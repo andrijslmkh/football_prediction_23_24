@@ -221,9 +221,9 @@ const conferenceLeagueJson = [
 				position: 1,
 				stats: {
 					win: 4,
-					draw: 0,
+					draw: 1,
 					lose: 1,
-					points: 12,
+					points: 13,
 				},
 			},
 			{
@@ -234,7 +234,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 2,
 					draw: 0,
-					lose: 3,
+					lose: 4,
 					points: 6,
 				},
 			},
@@ -244,10 +244,10 @@ const conferenceLeagueJson = [
 				alt: 'legia',
 				position: 2,
 				stats: {
-					win: 3,
+					win: 4,
 					draw: 0,
 					lose: 2,
-					points: 9,
+					points: 12,
 				},
 			},
 			{
@@ -257,9 +257,9 @@ const conferenceLeagueJson = [
 				position: 4,
 				stats: {
 					win: 1,
-					draw: 0,
+					draw: 1,
 					lose: 4,
-					points: 3,
+					points: 4,
 				},
 			},
 		],
@@ -273,10 +273,10 @@ const conferenceLeagueJson = [
 				alt: 'genk',
 				position: 3,
 				stats: {
-					win: 1,
+					win: 2,
 					draw: 3,
 					lose: 1,
-					points: 6,
+					points: 9,
 				},
 			},
 			{
@@ -286,9 +286,9 @@ const conferenceLeagueJson = [
 				position: 1,
 				stats: {
 					win: 3,
-					draw: 2,
+					draw: 3,
 					lose: 0,
-					points: 11,
+					points: 12,
 				},
 			},
 			{
@@ -299,7 +299,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 0,
 					draw: 0,
-					lose: 5,
+					lose: 6,
 					points: 0,
 				},
 			},
@@ -310,9 +310,9 @@ const conferenceLeagueJson = [
 				position: 2,
 				stats: {
 					win: 2,
-					draw: 3,
+					draw: 4,
 					lose: 0,
-					points: 9,
+					points: 10,
 				},
 			},
 		],
@@ -328,7 +328,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 3,
 					draw: 0,
-					lose: 2,
+					lose: 3,
 					points: 9,
 				},
 			},
@@ -340,7 +340,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 0,
 					draw: 2,
-					lose: 3,
+					lose: 4,
 					points: 2,
 				},
 			},
@@ -350,10 +350,10 @@ const conferenceLeagueJson = [
 				alt: 'paok',
 				position: 1,
 				stats: {
-					win: 4,
+					win: 5,
 					draw: 1,
 					lose: 0,
-					points: 13,
+					points: 16,
 				},
 			},
 			{
@@ -362,10 +362,10 @@ const conferenceLeagueJson = [
 				alt: 'aberdeen',
 				position: 3,
 				stats: {
-					win: 0,
+					win: 1,
 					draw: 3,
 					lose: 2,
-					points: 3,
+					points: 6,
 				},
 			},
 		],
@@ -381,7 +381,7 @@ const conferenceLeagueJson = [
 				stats: {
 					win: 0,
 					draw: 1,
-					lose: 4,
+					lose: 5,
 					points: 1,
 				},
 			},
@@ -389,11 +389,11 @@ const conferenceLeagueJson = [
 				id: 239,
 				name: 'Нордшелланд',
 				alt: 'nordsjaelland',
-				position: 1,
+				position: 3,
 				stats: {
 					win: 3,
 					draw: 1,
-					lose: 1,
+					lose: 2,
 					points: 10,
 				},
 			},
@@ -401,12 +401,12 @@ const conferenceLeagueJson = [
 				id: 64,
 				name: 'Фенербахче',
 				alt: 'fenerbahce',
-				position: 3,
+				position: 1,
 				stats: {
-					win: 3,
+					win: 4,
 					draw: 0,
 					lose: 2,
-					points: 9,
+					points: 12,
 				},
 			},
 			{
@@ -415,10 +415,10 @@ const conferenceLeagueJson = [
 				alt: 'ludogorets',
 				position: 2,
 				stats: {
-					win: 3,
+					win: 4,
 					draw: 0,
 					lose: 2,
-					points: 9,
+					points: 12,
 				},
 			},
 		],
